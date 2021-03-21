@@ -6,7 +6,7 @@
 
 /*header*/
 header#playground_header {
-  background: #A31EE1;
+  background: #0493E3;
   height: 50px;
 }
 
@@ -29,7 +29,7 @@ p{  padding-left:10px;
    padding-bottom:10px;
     font-family: helvetica;  
     color: white;
-   background: #A31EE1;
+   background: #0493E3;
    line-height: 20px;
   /*text-align: center;*/
 }
