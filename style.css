@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +7,7 @@
 
 /*header*/
 header#playground_header {
-  background: #0493E3;
+  background: black;
   height: 50px;
 }
 
@@ -26,12 +27,32 @@ header#playground_header > h1 {
 }
 
 p{  padding-left:10px;
+  padding-right: 5px;
    padding-bottom:10px;
     font-family: helvetica;  
     color: white;
-   background: #0493E3;
+   background: black;
    line-height: 20px;
   /*text-align: center;*/
+     border-bottom: 10px solid white;
+}
+
+.form-group{
+   padding-left: 5px;
+  
+}
+
+.buttons{
+  padding-left: 5px;
+}
+button{
+  border-radius: 8px;
+  background-color: #0493E3;
+ color: white;  /*text-color*/
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 12px;
+  text-align: center;
+    text-decoration: none;
 }
 
 /*output area css*/
@@ -41,7 +62,7 @@ iframe#code {
   width: 100%;
   height: 100vh;
   border: unset;
-  background: #DCBEEA;
+  /*background: #DCBEEA;*/
 }
 
 
@@ -63,11 +84,16 @@ div#coding_area > div:first-child {
 div#coding_area {
   width: 100%;
   height: calc(60vh - 60px);
-  min-height: 125px;
+  min-height: 200px;
   display: flex;
   overflow: hidden;
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
+  
 }
 div#code_output {
-  height: 100%;
+  height: 100%; 
+   border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
+
