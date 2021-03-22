@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<head></head><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Codeit</title>
+<head>
+<title>Code++</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./assets/style.css">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -19,10 +19,17 @@
     <div id="coding_playground_outer">
       <header id="playground_header">
         <h1>Code++ </h1></header><p>Code++ is an online code editor for HTML, CSS and Javascript. It started on 21st March 2021 by <b>Vikas Singh</b> </p>
-
+      
+      <!-- filename -->
+      <div class="form-group">
+    <label for="input-fileName">File name</label>
+    <input type="text" class="form-control" id="input-fileName" value="textFile" placeholder="Enter file name">
+  </div>
+            <!-- filename -->
+     <div class="buttons"> <br><button id="btn-save" type="submit" class="btn btn-primary">Export as .zip</button><br></div>
       
       <!-- columns for code -->
-      <div class="page-wrap twilight">
+      <br><div class="page-wrap twilight">
         <div class="boxes">
           <div id="coding_area">
 <textarea id="html" placeholder="HTML body here" class="prism-live language-html"></textarea>
@@ -44,8 +51,8 @@
 
 <!--javascript linking-->
 <script src="script.js"></script>
-    
-    <marquee direction="right"><i><p>More features are coming soon :)</p></i></marquee>
+
+    <marquee direction="right"><i><h4>More features are coming soon :)</h4></i></marquee>
 
   </body>
 </html>
