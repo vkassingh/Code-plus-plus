@@ -5,6 +5,11 @@
   outline: 0;
 }
 
+
+.visitor_count{
+  display:flex;
+  
+}
 h4{
   font-family: helvetica;
 }
@@ -47,6 +52,8 @@ p{  padding-left:10px;
 }
 
 .buttons{
+   /*display: flex; /*creates a flex box for its children*/
+/*justify-content: space-evenly; /*to evenly distribute items on the line*/
   padding-left: 5px;
 }
 button{
