@@ -25,8 +25,14 @@
     <label for="input-fileName">File name</label>
     <input type="text" class="form-control" id="input-fileName" value="textFile" placeholder="Enter file name">
   </div>
-            <!-- filename -->
-     <div class="buttons"> <br><button id="btn-save" type="submit" class="btn btn-primary">Export as .zip</button><br></div>
+            <!-- buttons -->     
+<div class="buttons"> 
+   <script src="https://togetherjs.com/togetherjs-min.js"></script>
+ <button onclick="TogetherJS(this); return false;">Collaborate!</button>
+  
+ <!-- <button id="btn-save" type="submit" class="btn btn-primary">Export as .zip</button><br>-->
+  <!-- <button id="" type="" class="">Import code to Github</button>-->
+  </div>
       
       <!-- columns for code -->
       <br><div class="page-wrap twilight">
@@ -52,6 +58,11 @@
 <!--javascript linking-->
 <script src="script.js"></script>
 
+    <!--visitor section-->
+ <div class="visitor_count" > 
+<h3>All time total Visitors: </h3>
+<h3 id="count">0</h3></div>
+    
     <marquee direction="right"><i><h4>More features are coming soon :)</h4></i></marquee>
 
   </body>
