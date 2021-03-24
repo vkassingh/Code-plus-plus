@@ -12,13 +12,13 @@ function compile(){
 compile();
 
 
-const countEl = document.getElementById('count');
+const countE2 = document.getElementById('counts');
 updateVisitCount();
 function updateVisitCount() {
 	fetch('https://api.countapi.xyz/hit/codeplusplus/visits')
 	.then(res => res.json())
 	.then(res => {
-		countEl.innerHTML = res.value;
+		countE2.innerHTML = res.value;
 	})
 }
 
