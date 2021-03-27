@@ -25,6 +25,7 @@ header#playground_header {
 }
 
 
+}
 header#playground_header > h1 {
   padding: 0;
   text-align: center;
@@ -90,8 +91,16 @@ iframe#code {
 
 div#coding_area > div {
   width: 100%;
-  border-left: 25px solid #A31EE1;
+  border-right: 25px solid ;
+  border-left: 2px solid ;
+  border-top: 2px solid ;
 }
+
+
+
+
+
+
 div#coding_area > div:first-child {
   border-left: none;
 }
