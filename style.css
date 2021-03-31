@@ -59,7 +59,7 @@ p{  padding-left:10px;
 
 .form-group{
    padding-left: 5px;
-  
+  padding-top: 70px;
 }
 
 .buttons{
@@ -154,4 +154,167 @@ div#code_output {
     border-top: 1px solid #444857;
     z-index: 10;
     font-size: 1rem;
+}
+
+/*to float the hamburger menu on left side*/
+.navbar-left {
+  float: left;
+  margin-left: 15px;
+}
+
+
+#site-header {
+	position:fixed; /*to fix an element to its position on the page*/
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	background-color: black;
+	color: #000;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2), 0 0 7px rgba(0, 0, 0, 0.2);
+	z-index: 100;  /*elements with higher z-index value is over other element*/
+  display: flex; /*creates a flex box for its children*/
+  justify-content:space-between; /*to evenly distribute items on the line*/
+}
+
+h1 {
+		font-size: 22px;
+		letter-spacing: 0.7px; 
+    color: white;
+		font-family: helvetica; 
+		postion:fixed; 
+    margin:10px; 
+    flex: 1;
+    text-align: center;
+    
+	}
+
+
+/*hamburger menu*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden; /*to clip content in padding box, no scrollbar provided*/
+  transition: 0.5s; /*to control animation timings*/
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover { /**hover krne p jo color chahye*/
+  color: #0493E3;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 20px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+/*search icon demo-2*/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: Helvetica;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+border: solid 1px #ccc;
+padding: 9px 10px 9px 32px;
+width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+input[type=search]:focus {
+	width: 100px;
+	background-color: #fff;
+	border-color: blue;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+#demo-2{
+  postion: fixed; left: 100px; top: 4px; padding-top: 5px; float: right; padding-             right:5px;
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+ 
+h1 {
+  color:white;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 25px;
+  }
 }
