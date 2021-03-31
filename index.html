@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+
+
 <head>
   <title>Code++</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,13 +20,32 @@
 
 <body>
 
-  <!-- header -->
-  <div id="coding_playground_outer">
-    <header id="playground_header">
-      <h1>Code++</h1>
-    </header>
-    <p>Code++ is an online code editor for HTML, CSS and Javascript. It started on 21st March 2021 by <b>Vikas Singh</b>
-    </p>
+   <!-- header -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Page header -->
+<header id="site-header">
+<br><h1> Code++</h1>
+  
+  <!-- search-icon -->
+  <form id="demo-2">
+	<input type="search" placeholder="Search">
+  </form>
+
+<!--span icon with inline css for the hamburger icon-->
+<!--struggled with css positioning-->
+<span class="navbar-left" style="font-size:30px;cursor:pointer;position:fixed;float:left;top:4px; color:white;" onclick="openNav()">&#9776; </span>
+ 
+  <div id="mySidenav" class="sidenav"> 
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <!--<a href="#">Project Ideas</a>-->
+   <a href="https://newproject-codepp.netlify.app/">New Project</a>
+    <a href="#">Your Projects</a>
+    <a href="#">Take a Tour</a>
+    <a href="https://github.com/vkassingh/Codeplusplus/">Contribute to Code++</a>
+   </div></header>
+   <!--header ends-->
+  
 
     <!-- filename -->
     <div class="form-group">
@@ -74,6 +95,9 @@
  
 </body>
 </html>
+
+
+
 
 
 
