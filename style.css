@@ -112,7 +112,7 @@ div#coding_area > div:first-child {
 
 div#coding_area {
   width: 100%;
-  height: calc(70vh - 70px);
+  height: calc(65vh - 65px);
   min-height: 200px;
   display: flex;
   overflow: hidden;
