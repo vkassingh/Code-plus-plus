@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   outline: 0;
+  font-family: Arial;
 }
 
 
@@ -11,7 +12,7 @@
  
 h1 {
     color:white;
-  font-family: helvetica;
+  font-family: arial;
   text-align: center;
   font-size: 25px;
   }
@@ -89,7 +90,7 @@ iframe#code {
 
 
 .prism-live {
-  min-height: 1000px;
+  min-height: 1200px;
   overflow-x: hidden;
   width: 100%;
 }
@@ -97,14 +98,12 @@ iframe#code {
 
 div#coding_area > div {
   width: 100%;
-  border-right: 25px solid ;
+  border-right: 1px solid ;
   border-left: 2px solid ;
   border-top: 2px solid ;
+  
+ 
 }
-
-
-
-
 
 
 div#coding_area > div:first-child {
@@ -113,7 +112,7 @@ div#coding_area > div:first-child {
 
 div#coding_area {
   width: 100%;
-  height: calc(60vh - 60px);
+  height: calc(80vh - 80px);
   min-height: 200px;
   display: flex;
   overflow: hidden;
@@ -318,3 +317,34 @@ h1 {
   font-size: 25px;
   }
 }
+
+
+#coding_area {
+   overflow: hidden; 
+  resize: horizontal;
+  
+    }
+
+#html-resize-frame {
+  overflow: hidden; 
+  resize: horizontal;
+
+ 
+   
+  }
+
+
+#css-resize-frame {
+  overflow: hidden; 
+  resize: horizontal;
+  
+  }
+
+#js-resize-frame {
+  overflow: hidden; 
+  resize: horizontal;
+ 
+  
+  }
+
+
