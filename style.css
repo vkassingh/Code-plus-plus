@@ -327,7 +327,7 @@ h1 {
 
 #html-resize-frame {
   overflow: hidden; 
-  resize: horizontal;
+  resize: both;
 
  
    
@@ -336,13 +336,13 @@ h1 {
 
 #css-resize-frame {
   overflow: hidden; 
-  resize: horizontal;
+  resize: both;
   
   }
 
 #js-resize-frame {
   overflow: hidden; 
-  resize: horizontal;
+  resize: both;
  
   
   }
