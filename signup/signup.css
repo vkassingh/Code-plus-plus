@@ -10,7 +10,11 @@
           color: white;
           font: 87.5%/1.5em 'Open Sans', sans-serif;
           margin: 0;
-          background-image: url("http://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max")
+          background-image: url("http://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+           -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
         }
 
         p {
